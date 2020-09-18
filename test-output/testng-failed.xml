@@ -3,11 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="Test.ValidateDuplicateCategoryTest">
+      <class name="Test.LaunchBrowserTest">
         <methods>
-          <include name="ValidateDuplicateCategoryMessage"/>
+          <include name="OpenBrowser"/>
         </methods>
-      </class> <!-- Test.ValidateDuplicateCategoryTest -->
+      </class> <!-- Test.LaunchBrowserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

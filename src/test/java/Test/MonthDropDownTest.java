@@ -7,21 +7,17 @@ import org.testng.annotations.Test;
 import Page.MonthDropDownPage;
 import Util.BrowserFactory;
 
-public class MonthDropDownButtonTest {
+public class MonthDropDownTest {
 	WebDriver driver;
 	
 	@Test
-	public MonthDropDownButtonTest(WebDriver driver) {
-
-		this.driver = driver;
-
+	public void MonthDropDownList() {
 		driver = BrowserFactory.launchBrowser();
 		
 		MonthDropDownPage monthdropdown = PageFactory.initElements(driver, MonthDropDownPage.class);
-		
 		monthdropdown.ClickMonthDropDown();
+		
+		
 	}
 
-
-		
 }
